@@ -23,3 +23,12 @@ Nested Cross-Validation: Ensures unbiased performance estimates by using an oute
 SHAP Analysis: Provides insights into the model's predictions and helps identify the most important features contributing to the outcome.
 
 Configurable Parameters: Configuration is managed through a config.yml file for easy modification of model parameters, cross-validation settings, and preprocessing choices.
+
+# Results
+After completing the cross-validation process, the model's performance is summarized with the following metrics:
+
+Accuracy: A measure of how well the model classifies remission versus non-remission.
+
+ROC-AUC: A measure of the model’s ability to discriminate between classes.
+
+Standard Deviations: To assess the model’s stability across different cross-validation folds.
